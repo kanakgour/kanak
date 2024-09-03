@@ -1,0 +1,287 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color:rgb(254,203,28);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+} */
+.container{
+  display: flex;
+justify-content: space-between;
+align-items: center;
+background: black;
+background-color: #333;
+color: #fff;
+padding: 15px;
+text-align: center;
+}
+.container button{
+  background-color: rgb(130,180,64);
+}
+.container img{
+  width: 150px;
+
+}
+.about-container{
+  background-color: rgb(254,203,28)3;
+  width: 300px;
+  border-radius: 40%;
+}
+.about-container img{
+  width: 300px; /* Adjust the size as needed */
+  height: 300px; /* Adjust the size as needed */
+  background-color: #3498db; /* Change the color as needed */
+  border-radius: 50%;
+  margin-left: 15vw;
+  margin-top: 7vh;
+
+}
+.envatomarket h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.number {
+  background-color: #007bff;
+  display: block;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.details nav ul {
+  list-style: none;
+  background-color:black;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.details nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.details nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.introduction {
+  text-align: center;
+
+  background-image: url(https://html.iwthemes.com/studio-landing-2020/no-arrows/images/home-studio.jpg);
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  
+  height: 90vh;
+}
+.work h2 {
+ font-size: 7rem;
+ margin-left: 25vw;
+ 
+}
+.work p{
+
+ margin-right: 20vw;
+ text-align: center;
+  
+}
+.work{
+  background-color: yellow;
+}
+
+.circle {
+  width: 250px; /* Size of the circle */
+  height: 250px; /* Size of the circle */
+  border-radius: 50%; /* Makes the div a circle */
+  overflow: hidden; /* Hides any overflow from the image */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.circle img {
+  width: 100%; /* Ensures the image covers the circle */
+  height: auto; /* Maintains aspect ratio */
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
+.circle-container{
+  display: flex;
+  align-items: center;
+  margin-left: 18vw;
+
+}
+
+
+.studio h3 {
+  font-size: 9rem;
+}
+.studio {
+  margin-top: 10px;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.talk-with-us {
+  background-color: #28a745;
+}
+
+.work, .about, .contact {
+  margin: 20px;
+  padding: 20px;
+  background-color:rgb(255, 217, 0);
+  border-radius: 5px;
+}
+
+h5, h6, h7, h8 {
+  margin-bottom: 10px;
+}
+
+.about{
+  background-image: url(https://html.iwthemes.com/studio-landing-2020/no-arrows/images/about-studio.jpg);
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the image */
+  height: 110vh;
+
+}
+.about h2{
+  font-size: 7rem;
+  margin-left: 25vw;
+
+}
+.about p{
+  
+ margin-right: 40vw;
+ text-align: center;
+
+}
+p {
+  margin-bottom: 10px;
+}
+/* styles.css */
+
+/* Ensure the body covers the full height of the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Use flexbox to center content in the body */
+
+
+/* Style the contact section */
+.contact {
+  text-align: center; /* Center-align text */
+ 
+  padding: 20px; /* Optional: add padding */
+  border-radius: 8px; /* Optional: add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow */
+}
+
+/* Style headings and paragraphs as needed */
+.contact h2 {
+  margin-bottom: 15px;
+  font-size: 7rem;
+}
+
+.contact p {
+  margin: 10px 0;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+header, .introduction, .work, .about, .contact, .footer {
+  animation: fadeIn 1s ease-in;
+  }
+
+
+
+
+.A-container {
+display: flex;
+gap: 20vw; /* Space between circles */
+}
+.A-container h1 {
+margin-left: 20vw;
+}
+#A{
+color: white;
+width: 15vw;
+}
+#A1{
+width: 15vw;
+
+}
+
+.about-containere {
+width: 250px; /* Size of the circle */
+  height: 250px; /* Size of the circle */
+  border-radius: 50%; /* Makes the div a circle */
+  overflow: hidden; /* Hides any overflow from the image */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+
+.about-container img {
+width: 100%;
+height: 100%;
+object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
+.l1{
+  padding: 20px 20px
+  width: 50px
+}
